@@ -122,7 +122,7 @@ function getDailyGO() {
         }),
 
     };
-    var response = UrlFetchApp.fetch(DEV_URL, options);
+    var response = UrlFetchApp.fetch(LOG_URL, options);
     Logger.log("Successfully.")
 }
 function getDailyKVM() {
@@ -205,6 +205,6 @@ function getDailyKVM() {
         }),
 
     };
-    var response = UrlFetchApp.fetch(DEV_URL, options);
+    var response = UrlFetchApp.fetch(LOG_URL, options);
     Logger.log("Successfully.")
 }
